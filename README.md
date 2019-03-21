@@ -5,7 +5,7 @@ Using the fips build system: https://github.com/floooh/fips
 
 ## Using
 
-To use argagg you need just to add it to your `fips.yml`:
+To use argagg, add it to your `fips.yml`:
 
 ```cmake
 imports:
@@ -13,5 +13,5 @@ imports:
          git: git://github.com:MODit3D/fips-argagg.git
 ```
 
-And them add a dependency to your project using `fips_deps(argagg)`.
+Then, add a dependency to your project using `fips_deps(argagg)`.
 
