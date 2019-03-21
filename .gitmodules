@@ -1,0 +1,3 @@
+[submodule "argagg"]
+	path = argagg
+	url = git@github.com:MODit3d/argagg.git

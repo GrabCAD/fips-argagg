@@ -1,0 +1,7 @@
+#
+# fips-argagg
+#
+---
+exports:
+  header-dirs:
+    - argagg/include
