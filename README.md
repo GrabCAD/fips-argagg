@@ -13,10 +13,4 @@ imports:
          git: git://github.com:MODit3D/fips-argagg.git
 ```
 
-Then, add a dependency to your `CMakeLists.txt`:
-
-```cmake
-     # within your fips_begin_app()
-     fips_deps(argagg)
-```
-
+Because argagg is header only, you do not need a fips_deps(argagg) in CMakeLists.txt.
