@@ -10,7 +10,7 @@ To use argagg, add it to your `fips.yml`:
 ```cmake
 imports:
      fips-argagg:
-         git: git://github.com:MODit3D/fips-argagg.git
+         git: https://github.com/MODit3D/fips-argagg.git
 ```
 
 Because argagg is header only, you do not need a fips_deps(argagg) in CMakeLists.txt.
